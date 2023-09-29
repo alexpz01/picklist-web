@@ -1,0 +1,32 @@
+.second-left {
+    padding-top: 4rem;
+}
+
+.sl-image {
+    flex-grow: 1;     
+    max-width: 100%;  
+}
+
+.sl-text {
+    padding: 3rem!important;
+    h3 {
+        margin-top: 0!important;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .second-left {
+        padding-top: 1rem;
+    }
+    .sl-text {
+        text-align: center;
+        padding: 1rem!important;
+        h3 {
+            margin-top: 0!important;
+        }
+    }
+    
+}
+
+

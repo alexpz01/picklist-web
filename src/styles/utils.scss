@@ -1,0 +1,55 @@
+.button {
+    padding: 5px 15px;
+}
+.button:hover {
+    cursor: pointer;
+    filter: saturate(0.9);
+    
+}
+
+.underline-over:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.bg-gray {
+    background-color: $gray!important;
+}
+
+.bg-red {
+    color: white;
+    background-color: $red!important;
+}
+
+.bg-blue {
+    color: white;
+    background-color: $blue!important;
+}
+
+.color-red {
+    color: $red;
+}
+
+.display-0 {
+    font-size: 3rem;
+}
+@media (min-width: 500px) {
+    .display-0 {
+        font-size: 4rem;
+    }
+    
+}
+@media (min-width: 768px) {
+    .display-0 {
+        font-size: 5rem;
+    }
+    
+}
+@media (min-width: 1200px) {
+    .display-0 {
+        font-size: 6rem;
+    }
+    
+}
+
+

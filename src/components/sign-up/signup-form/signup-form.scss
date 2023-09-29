@@ -1,0 +1,33 @@
+.form-logo {
+    width: 25%;
+    padding: 1.5rem;
+    border-bottom-right-radius: 30px;
+}
+
+.sign-up-form {
+    margin: 0 auto;
+    width: 900px;
+}
+
+@media (max-width : 920px) {
+    .sign-up-form {
+        width: 768px;
+    }
+}
+
+@media (max-width : 768px) {
+    .form-logo {
+        width: 40%;
+        padding: 1.5rem;
+        border-bottom-right-radius: 30px;
+    }
+    .sign-up-form {
+        width: 500px;
+    }
+}
+
+@media (max-width : 500px) {
+    .sign-up-form {
+        width: 100%;
+    }
+}

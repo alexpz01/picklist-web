@@ -1,0 +1,7 @@
+.mobile-menu {
+    transition: .5s;
+    right: -100vh;
+    &.show {
+        right: 0;
+    }
+}

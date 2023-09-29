@@ -1,0 +1,40 @@
+.hf-element {
+    width: 55%;
+}
+.hf-text {
+    width: 30%;
+}
+
+@media (max-width: 1700px) {
+
+    .hf-element {
+        width: 55%;
+    }
+    .hf-text {
+        width: 50%;
+    }
+}
+
+
+
+@media (max-width: 1200px) {
+
+    .hf-element {
+        width: 55%;
+    }
+    .hf-text {
+        width: 70%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .hf-element {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .hf-text {
+        width: 90%;
+    }
+}
+

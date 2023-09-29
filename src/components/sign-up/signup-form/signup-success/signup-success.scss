@@ -1,0 +1,14 @@
+@keyframes showSuccess {
+    from {
+        top: -120vh;
+    }
+    to {
+        top: 0;
+    }
+}
+
+.sign-up-success {
+    animation-name: showSuccess;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
